@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E86D79E-A3E1-450F-ADDE-373A1C44434A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>burguers</RootNamespace>
+    <AssemblyName>burguers</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Productos\Bebidas\bebidasDesactivadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Bebidas\bebidasDesactivadas.Designer.cs">
+      <DependentUpon>bebidasDesactivadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Ingredientes\IngredientesDesactivados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Ingredientes\IngredientesDesactivados.Designer.cs">
+      <DependentUpon>IngredientesDesactivados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\AcompañamientoDesactivados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\AcompañamientoDesactivados.Designer.cs">
+      <DependentUpon>AcompañamientoDesactivados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\agregarDetalleAcompañamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\agregarDetalleAcompañamiento.Designer.cs">
+      <DependentUpon>agregarDetalleAcompañamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Combos\activarCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Combos\activarCombo.Designer.cs">
+      <DependentUpon>activarCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Combos\AgregarCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Combos\AgregarCombo.Designer.cs">
+      <DependentUpon>AgregarCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Combos\AgregarDetalleCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Combos\AgregarDetalleCombo.Designer.cs">
+      <DependentUpon>AgregarDetalleCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Combos\Combo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Combos\Combo.Designer.cs">
+      <DependentUpon>Combo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Combos\DetalleCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Combos\DetalleCombo.Designer.cs">
+      <DependentUpon>DetalleCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\ActivarHamburguesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\ActivarHamburguesa.Designer.cs">
+      <DependentUpon>ActivarHamburguesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\AgregarHamburguesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\AgregarHamburguesa.Designer.cs">
+      <DependentUpon>AgregarHamburguesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\DetalleHamburguesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\DetalleHamburguesa.Designer.cs">
+      <DependentUpon>DetalleHamburguesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\Hamburguesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Hamburguesa\Hamburguesa.Designer.cs">
+      <DependentUpon>Hamburguesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\Acompañamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\Acompañamiento.Designer.cs">
+      <DependentUpon>Acompañamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\AgregarAcompañamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Acompañamiento\AgregarAcompañamiento.Designer.cs">
+      <DependentUpon>AgregarAcompañamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Bebidas\AgregarBebida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Bebidas\AgregarBebida.Designer.cs">
+      <DependentUpon>AgregarBebida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Bebidas\Bebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Bebidas\Bebidas.Designer.cs">
+      <DependentUpon>Bebidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Ingredientes\AgregarIngrediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Ingredientes\AgregarIngrediente.Designer.cs">
+      <DependentUpon>AgregarIngrediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\empleados.Designer.cs">
+      <DependentUpon>empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\AgregarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\AgregarEmpleado.Designer.cs">
+      <DependentUpon>AgregarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Ingredientes\ingrediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Ingredientes\ingrediente.Designer.cs">
+      <DependentUpon>ingrediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Productos\Bebidas\bebidasDesactivadas.resx">
+      <DependentUpon>bebidasDesactivadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Ingredientes\IngredientesDesactivados.resx">
+      <DependentUpon>IngredientesDesactivados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Acompañamiento\AcompañamientoDesactivados.resx">
+      <DependentUpon>AcompañamientoDesactivados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Acompañamiento\agregarDetalleAcompañamiento.resx">
+      <DependentUpon>agregarDetalleAcompañamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Combos\activarCombo.resx">
+      <DependentUpon>activarCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Combos\AgregarCombo.resx">
+      <DependentUpon>AgregarCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Combos\AgregarDetalleCombo.resx">
+      <DependentUpon>AgregarDetalleCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Combos\Combo.resx">
+      <DependentUpon>Combo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Combos\DetalleCombo.resx">
+      <DependentUpon>DetalleCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Hamburguesa\ActivarHamburguesa.resx">
+      <DependentUpon>ActivarHamburguesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Hamburguesa\AgregarHamburguesa.resx">
+      <DependentUpon>AgregarHamburguesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Hamburguesa\DetalleHamburguesa.resx">
+      <DependentUpon>DetalleHamburguesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Hamburguesa\Hamburguesa.resx">
+      <DependentUpon>Hamburguesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Acompañamiento\Acompañamiento.resx">
+      <DependentUpon>Acompañamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Acompañamiento\AgregarAcompañamiento.resx">
+      <DependentUpon>AgregarAcompañamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Bebidas\AgregarBebida.resx">
+      <DependentUpon>AgregarBebida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Bebidas\Bebidas.resx">
+      <DependentUpon>Bebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Ingredientes\AgregarIngrediente.resx">
+      <DependentUpon>AgregarIngrediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleado\empleados.resx">
+      <DependentUpon>empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleado\AgregarEmpleado.resx">
+      <DependentUpon>AgregarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Ingredientes\ingrediente.resx">
+      <DependentUpon>ingrediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio-\Dominio-.csproj">
+      <Project>{0d08dde7-d0cb-428c-8e9f-49e125df3a43}</Project>
+      <Name>Dominio-</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio-\Negocio-.csproj">
+      <Project>{0def67e2-4dc7-4041-8c70-324620661659}</Project>
+      <Name>Negocio-</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

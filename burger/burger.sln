@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio-", "..\Dominio-\Dominio-.csproj", "{0D08DDE7-D0CB-428C-8E9F-49E125DF3A43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio-", "..\Negocio-\Negocio-.csproj", "{0DEF67E2-4DC7-4041-8C70-324620661659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "burguers", "..\burguers\burguers.csproj", "{2E86D79E-A3E1-450F-ADDE-373A1C44434A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D08DDE7-D0CB-428C-8E9F-49E125DF3A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D08DDE7-D0CB-428C-8E9F-49E125DF3A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D08DDE7-D0CB-428C-8E9F-49E125DF3A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D08DDE7-D0CB-428C-8E9F-49E125DF3A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEF67E2-4DC7-4041-8C70-324620661659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEF67E2-4DC7-4041-8C70-324620661659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEF67E2-4DC7-4041-8C70-324620661659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEF67E2-4DC7-4041-8C70-324620661659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E86D79E-A3E1-450F-ADDE-373A1C44434A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E86D79E-A3E1-450F-ADDE-373A1C44434A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E86D79E-A3E1-450F-ADDE-373A1C44434A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E86D79E-A3E1-450F-ADDE-373A1C44434A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BBC3AEE-2FB8-4384-AD36-2FD4A1CBC98A}
+	EndGlobalSection
+EndGlobal

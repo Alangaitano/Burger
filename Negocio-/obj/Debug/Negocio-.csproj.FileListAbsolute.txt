@@ -1,0 +1,9 @@
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\bin\Debug\Negocio-.dll
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\bin\Debug\Negocio-.pdb
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\bin\Debug\Dominio-.dll
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\bin\Debug\Dominio-.pdb
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\obj\Debug\Negocio-.csproj.AssemblyReference.cache
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\obj\Debug\Negocio-.csproj.CoreCompileInputs.cache
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\obj\Debug\Negocio-.csproj.CopyComplete
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\obj\Debug\Negocio-.dll
+C:\Users\Alan-\OneDrive\Escritorio\Cursos\burger\Programacion\Negocio-\obj\Debug\Negocio-.pdb
