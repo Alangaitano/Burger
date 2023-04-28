@@ -1,5 +1,6 @@
 USE [hamburgueseria]
 GO
+
 /****** Object:  Table [dbo].[acompañamiento]    Script Date: 5 abr. 2023 00:01:58 ******/
 SET ANSI_NULLS ON
 GO
